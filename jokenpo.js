@@ -14,12 +14,10 @@ const playMachine = () => {
     const choices = ['rock', 'paper', 'scisor'];
     const randomNumber = Math.floor(Math.random() * 3);
 
-    return choices[randomNumber]
+    return choices[randomNumber];
 };
-
 const playTheGame = (human, machine) => {
     console.log("Humano: " + human, "Máquina: " + machine);
-};
 
 if (human === machine) {
     result.innerHTML = "Deu empate!";
@@ -35,6 +33,7 @@ if (human === machine) {
     machineScoreNumber++;
     machineScore.innerHTML = machineScoreNumber;
     result.innerHTML = "Você perdeu!";
+}
 };
 
 

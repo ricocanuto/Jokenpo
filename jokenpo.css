@@ -5,8 +5,10 @@
 }
 
 body {
-    background-image: url("https://source.unsplash.com/1600x900/?landscape");
-    background-size: cover;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/projects/404/42cc8e81516967.Y3JvcCwxMjc0LDk5NiwyNSw4Mg.png");
+    background-size: cover; 
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,6 +23,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adicionado sombra para destacar a div */
 }
 
 button {
